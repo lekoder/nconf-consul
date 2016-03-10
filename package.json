@@ -1,0 +1,32 @@
+{
+  "name": "nconf-consul",
+  "version": "0.0.1",
+  "description": "Consul KV store for nconf",
+  "main": "lib/nconf-consul.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekoder/nconf-consul.git"
+  },
+  "keywords": [
+    "nconf",
+    "consul"
+  ],
+  "author": "Mariusz 'koder' Chwalba <mariusz@chwalba.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lekoder/nconf-consul/issues"
+  },
+  "homepage": "https://github.com/lekoder/nconf-consul#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "consul-kv-object": "^0.4.0"
+  }
+}
